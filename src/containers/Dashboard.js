@@ -5,10 +5,12 @@ import Nav from '../components/Nav'
 import SideBar from '../components/Sidebar/Sidebar'
 import NotFound from '../components/notfound'
 import ChartComponent from '../components/Chart'
+import Service from "../components/service"
 const Dashboard = () => {
     const routes = {
         "/": () => <Home />,
-        "/chart": () => <ChartComponent />
+        "/chart": () => <ChartComponent />,
+        "/service": () => <Service />
       };
       const match = useRoutes(routes);
     return (
