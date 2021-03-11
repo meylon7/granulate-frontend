@@ -1,8 +1,8 @@
 import React from 'react'
 import { A } from "hookrouter";
 import { Menu } from "antd";
-
 const MainMenu = () => {
+    
     return (
         <Menu
           style={{ width: 199 }}
@@ -23,7 +23,7 @@ const MainMenu = () => {
             <A href="/" icon={'bank'}>Menu Item 4</A>
         </Menu.Item>
         <Menu.Item key="5">   
-            <A href="/" icon={'cog'} >Menu Item 5</A>
+            <A href="/service" icon={'cog'}>Services</A>
         </Menu.Item>     
             
         </Menu>
