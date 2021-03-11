@@ -1,10 +1,12 @@
 import React, {useState, useEffect} from 'react'
 import { Select, } from "antd";
 import axios from "axios";
+import useSessionStorage from '../hook/useSessionStorage'
 const SelectBox = () => {
     const { Option } = Select;
     const [data, setData] = useState([])
     const [service, setService] = useState([])
+    const [serviceStorage, setServiceStorage] = useSessionStorage("serviceStorage")
     let instance = []
     const onChange = (val) => {
         console.log(`selected ${val}`);
@@ -33,6 +35,7 @@ const SelectBox = () => {
                   }        
                 console.log(instance)
                 setService(instance)  
+                setServiceStorage(instance)
           })
     }
 
