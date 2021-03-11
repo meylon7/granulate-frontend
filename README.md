@@ -8,4 +8,4 @@ using:
 react functional with hooks
 css styles - 'styled-components'
 components - custom and antd
-3 p - hookrouter, antd, styled-components, react-chart.js
+3 p - hookrouter, antd, styled-components, react-chart.js, axios
