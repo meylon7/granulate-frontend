@@ -5,7 +5,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 npm install
 
 ## using:
-react functional with hooks
-css styles - 'styled-components'
-components - custom and antd
+react functional with hooks, 
 3 p - hookrouter, antd, styled-components, react-chart.js, axios
