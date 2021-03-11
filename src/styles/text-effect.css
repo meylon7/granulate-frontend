@@ -62,3 +62,10 @@
     width:80% !important;
     margin-left:150px;
 }
+
+.short-text{
+  white-space: nowrap; 
+  width: 300px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
