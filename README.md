@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 npm install
 
-using:
+## using:
 react functional with hooks
 css styles - 'styled-components'
 components - custom and antd
